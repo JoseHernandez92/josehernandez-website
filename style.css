@@ -26,7 +26,8 @@ body {
     display: flex;
     width: 100%;
     height: 60px;
-    background: rgb(15, 15, 15)
+    background: rgb(15, 15, 15);
+    border-bottom: 0.2rem solid rgb(23, 189, 255);
 
 }
 
@@ -73,42 +74,85 @@ body {
 }
 
 section {
-    /* display: flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; */
+    justify-content: center; 
     height: 100vh;
     width: 100%;
 
 }
 
 section h1 {
-    font-size: 4rem;
+    font-size: 2.5rem;
+
+}
+
+section h3 {
+    font-size: 1rem;
+    margin: 0.5rem;
 
 }
 
 section p {
-    font-size: 1.5rem;
-    
+    font-size: 1.5rem;  
 
 }
 
 section#home {
     background: white;
-    color:rgb(35, 35, 35);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; 
+    color: rgb(15, 15, 15);
+    
 
 }
 
 section#home img {
     height: 9rem;
-	width: 9rem;
-	border-radius: 50%;
+    width: 9rem;
+    border-radius: 50%;
+    border: 2px solid rgb(15, 15, 15);
+    margin: 2rem;
+    margin-top: 5rem;
 
 }
+
+.media{
+    border: 2px solid rgb(255, 255, 255);
+    margin: 7rem 1rem 1rem 1rem;
+    
+}
+
+.media li{
+    list-style: none;
+    margin: 0.5rem 1rem;
+    display: inline-flex;
+    font-size: 2rem;
+    
+}
+
+.media ul li a i{
+    color:  rgb(15, 15, 15);
+    transition: all 0.3s ease 0s;
+}
+
+.media ul li a i:hover {
+    color: rgb(23, 189, 255);
+}
+
+.arrow {
+    color:  rgb(15, 15, 15);
+    transition: all 0.3s ease 0s;
+    font-size: 2rem;
+    margin-top: 4.5rem;
+
+}
+
+.arrow:hover {
+    color: rgb(23, 189, 255);
+}
+
+
+
 
 
 section#about {
@@ -145,7 +189,36 @@ footer {
 
     .navbar ul li a {
         font-size: 1.2rem;  
-    }  
+    }
+    
+    section h1 {
+        font-size: 2.4rem;
+    
+    }
+    
+    section h3 {
+        font-size: 0.9rem;
+        margin: 0.5rem;
+    
+    }
+
+    section#home img {
+        height: 8.5rem;
+        width: 8.5rem;
+        border-radius: 50%;
+        border: 2px solid rgb(15, 15, 15);
+        margin: 2rem;
+        margin-top: 7rem;
+    
+    }
+
+    .arrow {
+        color:  rgb(15, 15, 15);
+        transition: all 0.3s ease 0s;
+        font-size: 2rem;
+        margin: 4rem 0rem;
+    
+    }
 
 }
 
@@ -159,6 +232,17 @@ footer {
     .navbar ul li a {
         font-size: 1rem;  
     }  
+
+    section h1 {
+        font-size: 1.9rem;
+    
+    }
+    
+    section h3 {
+        font-size: 0.8rem;
+        margin: 0.5rem;
+    
+    }
 }
 
 @media (max-width: 360px){
@@ -169,6 +253,17 @@ footer {
     .navbar ul li {
         margin: 0 0.3rem;
         padding-right: 0.5rem;   
+    }
+
+    section h1 {
+        font-size: 1.5rem;
+    
+    }
+    
+    section h3 {
+        font-size: 0.8rem;
+        margin: 0.5rem;
+    
     }
 
 }
