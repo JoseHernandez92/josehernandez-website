@@ -57,3 +57,52 @@ section#home img {
 svg {
     display: block;
 }
+
+
+@media (max-width: 600px){
+    section#home img {
+        height: 8.5rem;
+        width: 8.5rem;
+    
+    }
+
+}
+
+@media (max-height: 650px){
+    section#home img {
+        margin-top: 7rem;
+    
+    }
+
+    .arrow {
+        margin: 2rem 0rem;
+    
+    }
+
+    .media{
+        margin: 4rem 1rem 1rem 1rem;
+        
+    }
+
+}
+
+@media (max-height: 550px){
+   
+    section#home img {
+        margin-top: 5rem;
+    
+    }
+
+    .arrow {
+        margin: 1rem 0rem;
+    
+    }
+
+    .media{
+        margin: 1rem;
+        
+    }
+
+}
+
+

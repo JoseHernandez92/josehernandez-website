@@ -52,3 +52,39 @@
     transition: width 0.3s;
 
 }
+
+
+@media (max-width: 600px){
+    .navbar ul li {
+        margin: 0 0.7rem;
+        padding-left: 0.7rem;
+    }
+
+    .navbar ul li a {
+        font-size: 1.2rem;  
+    }
+}
+
+@media (max-width: 480px){
+    .navbar ul li {
+        margin: 0 0.5rem;
+        padding-left: 0.5rem; 
+        padding-right: 0.7rem;   
+    }
+
+    .navbar ul li a {
+        font-size: 1rem;  
+    }  
+
+}
+
+@media (max-width: 360px){
+    .navbar {
+        height: 55px;
+    }
+
+    .navbar ul li {
+        margin: 0 0.3rem;
+        padding-right: 0.5rem;   
+    }
+}
