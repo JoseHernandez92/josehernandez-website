@@ -250,6 +250,7 @@ button:hover {
     }
 
     .slide-header {
+        width: 60%;
         padding: 3rem 1rem;
         margin: 0.4rem;
         
@@ -278,7 +279,7 @@ button:hover {
     }
 
     span {
-        word-break: break-all;
+        word-break: normal;
         margin:0.3rem;
     }
 
@@ -305,6 +306,7 @@ button:hover {
     }
 
     .slide-header {
+        width: 70%;
         padding: 2rem 1rem;
         margin: 0.3rem;
         
@@ -327,7 +329,7 @@ button:hover {
 
     p {
         margin: 0.5rem;
-        width: 70%;
+        width: 80%;
         font-size: 0.7rem;
     }
 
@@ -347,7 +349,6 @@ button:hover {
 
 @media (max-height: 850px){
     .slide-header {
-        width: 50%;
         padding: 4rem 1rem;
         margin: 0.5rem;
         
@@ -386,7 +387,6 @@ button:hover {
 
 @media (max-height: 700px){
     .slide-header {
-        width: 50%;
         padding: 3rem 1rem;
         margin: 0.5rem;
         
@@ -440,7 +440,6 @@ button:hover {
 
 @media (max-height: 550px){
     .slide-header {
-        width: 50%;
         padding: 2rem 0.6rem;
         margin: 0.4rem;
         
