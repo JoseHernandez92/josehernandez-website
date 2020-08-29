@@ -1,0 +1,172 @@
+section#projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    height: 100vh;
+    
+}
+
+#slider {
+    margin: 1.5rem;
+    width: 95%;
+}
+
+#slider input {
+    display: none;
+}
+
+#slides {
+    padding: 1rem;
+    position: relative;  
+}
+
+#overflow {
+    overflow: hidden;
+}
+
+#slide1:checked ~ #slides .inner {
+    margin-left: 0;
+}
+
+#slide2:checked ~ #slides .inner {
+    margin-left: -100%;
+}
+
+#slide3:checked ~ #slides .inner {
+    margin-left: -200%;
+}
+
+#slide4:checked ~ #slides .inner {
+    margin-left: -300%;
+}
+
+#slides .inner {
+    transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+    width: 400%;
+    height: 70vh;
+}
+
+#slides .slide {
+    width: 25%;
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #fff;
+}
+
+#bullets {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+#bullets label {
+    cursor:pointer;
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius:100%;
+    background: #fff;
+    margin: 0 10px;
+}
+
+#slide1:checked ~ #bullets label:nth-child(1),
+#slide2:checked ~ #bullets label:nth-child(2),
+#slide3:checked ~ #bullets label:nth-child(3),
+#slide4:checked ~ #bullets label:nth-child(4) {
+    background: var(--detail-blue);
+}
+
+.slide-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0.5rem;  
+}
+
+
+.slide-header {
+    text-align: center;
+    width: 50%;
+    border-radius: 10px;
+    padding: 6rem 2rem;
+    margin: 1rem;
+    background: rgb(15, 15, 15, 0.2);
+    background-image: url("../images/alacena.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    flex-direction: row;
+    margin: 1rem;
+    
+}
+
+.button {
+    background: #fff;
+    color: var(--main-dark-gray);
+    text-decoration: none;
+    font-size: 4rem;
+    font-family: Tahoma;
+    border-radius: 15rem;
+    margin: 4rem 1rem;
+    padding: 1rem;
+    transition: all 0.3s ease 0s;
+}
+
+.button:hover {
+    color: var(--detail-blue);
+    transform: scale(1.05);
+}
+
+h4 {
+    text-decoration: underline;
+    font-size: 1.2rem;
+    margin: 0.2rem;
+}
+
+p {
+    margin: 1rem;
+    width: 50%;
+    font-size: 1.5rem;
+}
+
+span {
+    background: var(--detail-blue);
+    color: #fff;
+    border-radius: 1rem;
+    margin:1rem;
+    padding: 0.4rem;
+
+}
+
+button {
+    background: #fff;
+    color:var(--main-dark-gray);
+    font-size: 2rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 2rem;
+    transition: all 0.3s ease 0s;
+    margin: 2rem;
+
+}
+
+button:hover {
+    color: var(--detail-blue);
+    transform: scale(1.05);
+}
+
+
+
+ 
+@media screen and (max-width: 900px) {
+    #slides {
+       max-width: calc(100% - 140px);
+       margin: 0 auto;
+    }
+}
+
