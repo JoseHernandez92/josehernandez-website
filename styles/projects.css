@@ -4,6 +4,7 @@ section#projects {
     align-items: center;
     justify-content: center; 
     height: 100vh;
+    background: var(--main-dark-gray);
     
 }
 

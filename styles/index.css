@@ -10,7 +10,7 @@
 }
 
 body {
-    background: var(--main-dark-gray);
+    background: #fff;
     color: #fff;
     line-height: 1.6;
     height: 100vh;
