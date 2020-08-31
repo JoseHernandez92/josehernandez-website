@@ -17,6 +17,7 @@
     width: 100%;
     justify-content: center;
     align-items: center;
+   
 }
 
 .navbar ul li {
@@ -35,6 +36,26 @@
 
 .navbar ul li a:hover {
     color: var(--detail-blue);
+}
+
+.navbar ul ul {
+    display: none;
+    position: absolute;
+    background: var(--main-black);
+    width: 4rem;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navbar ul li:hover>ul{
+    display: block;
+}
+
+.navbar ul ul a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .underscore::after {
