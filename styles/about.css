@@ -23,7 +23,7 @@ section#about p{
     width: 60%;
 }
 
-section#about button{
+section#about .normal-button{
     margin: 2rem 8rem;
 }
 
@@ -36,7 +36,9 @@ section#about button{
 
 }
 
-
+h5 {
+    font-size: 1rem;
+}
 
 .custom-shape-divider-top-1598343828 {
     position: absolute;
@@ -132,7 +134,7 @@ section#about button{
 
 
 @media (max-width: 600px){
-    section#about button{
+    section#about .normal-button{
         margin: 2rem 4rem;
     }
     
@@ -148,7 +150,7 @@ section#about button{
 }
 
 @media (max-width: 480px){
-    section#about button{
+    section#about .normal-button{
         margin: 2rem 2rem;
     }
     
@@ -160,7 +162,7 @@ section#about button{
 }
 
 @media (max-width: 360px){
-    section#about button{
+    section#about .normal-button{
         margin: 1rem;
     }
     
