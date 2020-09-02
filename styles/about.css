@@ -9,18 +9,17 @@ section#about {
 }
 
 .about {
-   
     display: flex;
     justify-content: center; 
     align-items: center;
     text-align: justify;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 10rem 2rem 2rem 2rem;
-    
 }
 
 section#about p{
     width: 60%;
+    font-size: 1.8rem;
 }
 
 section#about .normal-button{
@@ -32,12 +31,86 @@ section#about .normal-button{
     flex-direction: row;
     justify-content: center; 
     align-items: center;
-    margin: 4rem 2rem;
+    margin: 6rem 2rem;
 
 }
 
 h5 {
     font-size: 1rem;
+}
+
+@media (max-width: 1020px){
+    section#about p{
+        width: 70%;
+        font-size: 1.3rem;
+    }
+
+    .contact {
+        margin: 4rem 2rem;
+    }
+
+    section#about .normal-button{
+        margin: 2rem 0rem 2rem 4rem;
+    }
+} 
+
+@media (max-width: 780px){
+    section#about .normal-button{
+        margin: 2rem 0rem 2rem 3rem;
+    }
+    
+    section#about p{
+        width: 75%;
+        font-size: 1.2rem;
+    }
+    
+    .contact {
+        margin: 2rem 1.4rem;
+    }
+
+}
+
+@media (max-width: 480px){
+    .about {
+        margin: 6rem 1.5rem 1.5rem 1.5rem;
+    }
+
+    section#about p{
+        width: 80%;
+        font-size: 1rem;
+    }
+
+    section#about .normal-button{
+        font-size: 0.9rem;
+        padding: 0.3rem;
+        margin: 2rem 0rem 2rem 1.5rem;
+    }
+    
+    .contact {
+        margin: 1.5rem 0.8rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 360px){
+    .about {
+        margin: 4rem 1rem 1rem 1rem;
+    }
+
+    section#about p{
+        width: 85%;
+        font-size: 0.9rem;
+    }
+
+    section#about .normal-button{
+        font-size: 0.8rem;
+        margin: 0.8rem 0rem 0.8rem 1rem;
+    }
+    
+    .contact {
+        margin: 1rem 0.4rem;
+        font-size: 0.8rem;
+    }  
 }
 
 .custom-shape-divider-top-1598343828 {
@@ -61,6 +134,7 @@ h5 {
     fill: #FFFFFF;
 }
 
+
 .custom-shape-divider-top-1598343904 {
     position: absolute;
     top: 0;
@@ -81,8 +155,6 @@ h5 {
 .custom-shape-divider-top-1598343904 .shape-fill {
     fill: rgba(255, 255, 255, 0.5);
 }
-
-
 
 /* BOTOMM */
 
@@ -108,7 +180,6 @@ h5 {
 }
 
 
-
 .custom-shape-divider-bottom-1598345196 {
     position: absolute;
     bottom: 0;
@@ -129,95 +200,3 @@ h5 {
 .custom-shape-divider-bottom-1598345196 .shape-fill {
     fill:  rgb(35, 35, 35, 0.5);
 }
-
-
-
-
-@media (max-width: 600px){
-    section#about .normal-button{
-        margin: 2rem 3rem;
-    }
-    
-    .contact {
-        margin: 2rem 1.4rem;
-    }
-
-    section#about p{
-        width: 70%;
-        font-size: 1rem;
-    }
-
-}
-
-@media (max-width: 480px){
-    section#about .normal-button{
-        margin: 2rem 1.5rem;
-    }
-    
-    .contact {
-        margin: 2rem 0.8rem;
-        font-size: 1rem;
-    }
-
-}
-
-@media (max-width: 360px){
-    section#about .normal-button{
-        margin: 1rem;
-    }
-    
-    .contact {
-        margin: 1.5rem 0.5rem;
-        font-size: 0.8rem;
-    }
-   
-}
-
-
-
-
-@media (max-height: 850px){
-    .about {
-        margin: 8rem 1.5rem 1.5rem 1.5rem;
-        
-    }
-
-    .contact {
-        margin: 3rem 2rem;
-    }
-
-}
-
-@media (max-height: 700px){
-    .about {
-        margin: 6rem 2rem 2rem 2rem;
-        
-    }
-
-    section#about p{
-        width: 75%;
-        font-size: 1rem;
-    }
-
-
-}
-
-@media (max-height: 550px){
-    .about {
-        margin: 4rem 0.8rem 0.8rem 0.8rem;
-        
-    }
-
-    section#about p{
-        width: 80%;
-        font-size: 0.9rem;
-    }
-    
-    .contact {
-        margin: 1rem;
-    }
- 
-
-
-}
-
