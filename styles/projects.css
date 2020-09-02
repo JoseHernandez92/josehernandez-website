@@ -82,15 +82,30 @@ section#projects {
 
 .slide-header {
     text-align: center;
-    width: 55%;
+    width: 50%;
     border-radius: 10px;
     padding: 4rem 2rem;
     margin: 1rem;
-    background: rgb(15, 15, 15, 0.2);
-    background-image: url("../images/alacena.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.slide_1 .slide-header{
+    background-image: url("../images/alacena.jpg");
+}
+
+.slide_2 .slide-header{
+    background: rgb(15, 15, 15, 0.2);
+} 
+
+.slide_3 .slide-header{
+    background: rgb(15, 15, 15, 0.2);
+} 
+
+.slide_4 .slide-header{
+    width: 75%;
+    background-image: url("../images/home-page.jpg");
+} 
 
 .content {
     flex-direction: row;

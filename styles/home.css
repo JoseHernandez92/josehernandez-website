@@ -94,7 +94,7 @@ svg {
     section#home img {
         height: 8.5rem;
         width: 8.5rem;
-        margin-top: 5rem;
+        margin-top: 8rem;
     }
 
     .arrow {
@@ -107,6 +107,10 @@ svg {
 }
 
 @media (max-width: 360px){
+    section#home img {
+        margin-top: 7rem;
+    }
+
     section#home h1 {
         font-size: 1.5rem;
     }
