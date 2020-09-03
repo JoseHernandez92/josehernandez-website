@@ -102,9 +102,13 @@ section#projects {
 } 
 
 .slide_4 .slide-header{
-    width: 75%;
+    width: 85%;
     background-image: url("../images/home-page.jpg");
-} 
+}
+
+.slide_4 p {
+    width: 70%
+}
 
 .content {
     flex-direction: row;
@@ -116,7 +120,6 @@ section#projects {
     color: var(--main-dark-gray);
     text-decoration: none;
     font-size: 4rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 15rem;
     padding: 1rem;
     transition: all 0.3s ease 0s;
@@ -128,7 +131,6 @@ section#projects {
 }
 
 h4 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: underline;
     font-size: 1.5rem;
     margin: 1rem;
@@ -242,6 +244,7 @@ span {
 
     h4 {
         font-size: 0.8rem;
+        margin: 0.5rem
     }
 
     p {
