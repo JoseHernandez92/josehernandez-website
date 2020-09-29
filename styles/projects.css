@@ -90,7 +90,7 @@ section#projects {
 }
 
 .slide_1 .slide-header{
-    background-image: url("../images/alacena.jpg");
+    background: rgb(15, 15, 15, 0.2);
 }
 
 .slide_2 .slide-header{
@@ -103,7 +103,7 @@ section#projects {
 
 .slide_4 .slide-header{
     width: 85%;
-    background-image: url("../images/home-page.jpg");
+    background: rgb(15, 15, 15, 0.2);
 }
 
 .slide_4 p {
